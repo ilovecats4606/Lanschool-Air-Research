@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "Minimieren",
+    "maximize": "Maximieren",
+    "restore": "Verkleinern",
+    "close": "Schließen"
+  },
+  "tray": {
+    "about": "Über LanSchool Air",
+    "messages": "Nachrichten ...",
+    "status": "Status ...",
+    "download": "Protokolle Herunterladen..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "Protokolldateien"
+  },
+  "aboutDialogue": {
+    "title": "Über LanSchool Air",
+    "version": "Versionsinformationen",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "Datenschutzerklärung und Nutzungsbedingungen",
+    "license": "Lizenzen von Drittanbietern"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% bittet darum, Ihre Aktivitäten zu überwachen",
+    "monitoring_button_allow": "Erlauben",
+    "monitoring_button_reject": "Ablehnen",
+    "stop_monitoring": "Stoppen Sie die Überwachung meines Computers",
+    "you_are_being_monitored": "Ihr Computer wird von LanSchool Air überwacht.",
+    "confirm_stop_monitoring": "Sie entfernen sich aus diesem Kurs. Um wieder beizutreten, müssen Sie mit der rechten Maustaste auf das LanSchool Air-Symbol klicken und \"Überwachung zulassen\" auswählen.",
+    "monitoring_button_ok": "OK",
+    "monitoring_button_cancel": "Stornieren"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "Bildschirm ausgeblendet von: {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "Ihr Kursleiter möchte Ihren Bildschirm freigeben",
+    "button_share": "Aktie",
+    "button_cancel": "Stornieren",
+    "button_stop_sharing": "Hör auf zu teilen",
+    "screen_sharing_text": "LanSchool Air teilt Ihren Bildschirm"
+  }
+}

@@ -1,0 +1,166 @@
+﻿{
+  "NOT_IN_CLASS": {
+    "str": "أنت لست في فصل دراسي.",
+    "desc": "User is not joined to a class."
+  },
+  "NOT_IN_CLASS_NOTE": {
+    "str": "استخدم هذا الكمبيوتر بحكمة!",
+    "desc": "NOTE when User is not joined to a class."
+  },
+  "CHAT_UNAVAILABLE": {
+    "str": "تم تعطيل الدردشة من قبل المعلم.",
+    "desc": "The teacher has disabled the ability for the student to use chat."
+  },
+  "HELLO": {
+    "str": "مرحبًا!",
+    "desc": "Greeting to the student."
+  },
+  "CHAT_WITH_TEACHER": {
+    "str": "تحدث مع معلمك هنا.",
+    "desc": "This tool allows the user to chat with their teacher."
+  },
+  "ENTERED_CLASS": {
+    "str": "تم دخول في {{ timeStamp }}",
+    "desc": "Notify the user they have entered the class at a particular time."
+  },
+  "ENTERED_CLASS_INTRO": {
+    "str": "انت في صف يمكن لمدرسك رؤية عملك.",
+    "desc": "Notify the user they are in a class and the instructor can see their work."
+  },
+  "CHAT_HISTORY_ON": {
+    "str": "سجل الدردشة قيد التشغيل.",
+    "desc": "Notify the user that the chat history setting is enabled."
+  },
+  "LEFT_CLASS": {
+    "str": "تمت مغادرة <strong>{{ className }}</strong> في {{ timeStamp }}",
+    "desc": "Notify the user they have left the class at a particular time."
+  },
+  "RAISED_HAND": {
+    "str": "لقد رفعت يدك",
+    "desc": "Notify the user they have raised their hand in the chat window."
+  },
+  "LOWERED_HAND": {
+    "str": "لقد خفضت يدك",
+    "desc": "Notify the user they have lowered their hand in the chat window."
+  },
+  "TYPE_MESSAGE_HERE": {
+    "str": "اكتب الرسالة هنا...",
+    "desc": "Placeholder text where the user types a chat message."
+  },
+  "ACTIVE_SPEAKER": {
+    "str": "تحدث: {{ activeTalker }}",
+    "desc": "Shows who is currently speaking in the conference."
+  },
+  "MULTPLE_SPEAKERS": {
+    "str": "(متعدد)",
+    "desc": "More than one speaker is currently speaking in the conference."
+  },
+  "TEACHER_SPEAKER": {
+    "str": "معلم",
+    "desc": "Shown when the teacher is the current speaker in the conference."
+  },
+  "TEACHER_CHAT": {
+    "str": "معلم",
+    "desc": "If name of teacher is not present when they send a chat message, this is the string identifying the sender."
+  },
+  "YOU_SPEAKER": {
+    "str": "أنت",
+    "desc": "Shown when the user is the current speaker in the conference."
+  },
+  "UNKNOWN_STUDENT": {
+    "str": "طالب غير معروف",
+    "desc": "Shown when the name of the student in the conference is unknown."
+  },
+  "CONFERENCE_ONGOING": {
+    "str": "المؤتمر مستمر",
+    "desc": "Shown when there is a conference in currenly session."
+  },
+  "PARTICIPANT_AVAILABLE": {
+    "str": "متوفر",
+    "desc": "A conference participant is available to speak."
+  },
+  "PARTICIPANT_BROADCASTING": {
+    "str": "البث",
+    "desc": "A conference participant is currently broadcasting."
+  },
+  "AUDIO_SETTINGS": {
+    "str": "إعدادات الصوت",
+    "desc": "Title for dialog box to make the audio device selection."
+  },
+  "AUDIO_SETTINGS_DESCRIPTION": {
+    "str": "حدد أجهزة الصوت الخاصة بك",
+    "desc": "On the settings dialog box, asks the user to choose their audio devices from the given choices."
+  },
+  "TEST_SPEAKERS": {
+    "str": "سماعات تجريبية",
+    "desc": "Button to allow the user to test their speakers with current audio settings."
+  },
+  "AUDIO_LEVELS": {
+    "str": "مستويات الصوت",
+    "desc": "Label for Audio Levels"
+  },
+  "MICROPHONE_DEVICE": {
+    "str": "الميكروفون",
+    "desc": "Label for the microphone device selection."
+  },
+  "SPEAKERS_DEVICE": {
+    "str": "السماعات",
+    "desc": "Label for the speakers device selection."
+  },
+  "NETWORK_ERROR_DETECTED": {
+    "str": "تم اكتشاف خطأ في الشبكة",
+    "desc": "Notify the user a network error has occurred."
+  },
+  "CHECK_NETWORK": {
+    "str": "تحقق من اتصالك بالإنترنت، وتأكد من أنك متصل بشبكة الإنترنت نفسها المتصل بها جهاز المعلم وحاول مرة أخرى.",
+    "desc": "Ask the user to check their network settings."
+  },
+  "RETRY_CONNECTION": {
+    "str": "أعد المحاولة",
+    "desc": "Ask the user to retry their network connection."
+  },
+  "CONNECTING": {
+    "str": "يتم الآن الاتصال...",
+    "desc": "Tell the user the network is currently trying to connect."
+  },
+  "LSA_CONNECTIVITY_STATUS": {
+    "str": "حالة برنامج LanSchool Air",
+    "desc": "Title for the dialog box displaying the current state of connectivity."
+  },
+  "CONNECTED": {
+    "str": "متصل",
+    "desc": "Tell the user the network is currently connected."
+  },
+  "NOT_CONNECTED": {
+    "str": "غير متصل",
+    "desc": "Tell the user the network is currently not connected."
+  },
+  "LEARN_MORE": {
+    "str": "يتعلم أكثر",
+    "desc": "Clickable link to a webpage for additional information"
+  },
+  "DOWNLOAD_LOGS": {
+    "str": "تنزيل السجلات",
+    "desc": "Button label for the user to download debug logs to the local filesystem."
+  },
+  "LOG_SAVE_SUCCESS": {
+    "str": "تم حفظ السجل بنجاح",
+    "desc": "Tell the user the log saved successfully."
+  },
+  "LOG_SAVE_ERROR": {
+    "str": "فشل حفظ السجل: {{ errorString }}",
+    "desc": "Tell the user the log save failed and why."
+  },
+  "DEAD_ORG_TITLE": {
+    "str": "تم تثبيت وكيل الطالب LanSchool Air على جهازك ولم يعد يعمل.",
+    "desc": "Title of dialog box explaining that the customer org is no longer recognized."
+  },
+  "DEAD_ORG_ACTION": {
+    "str": "يرجى الاتصال بالمسؤول الخاص بك لإلغاء التثبيت.",
+    "desc": "Direction to the user to contact their administrator."
+  },
+  "DISMISS_BUTTON_LABEL": {
+    "str": "رفض",
+    "desc": "Label for the dismiss button on a dialog."
+  }
+}

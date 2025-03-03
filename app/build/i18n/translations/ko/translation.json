@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "최소화",
+    "maximize": "최대화",
+    "restore": "복원",
+    "close": "다음"
+  },
+  "tray": {
+    "about": "LanSchool Air 정보",
+    "messages": "메시지...",
+    "status": "상태...",
+    "download": "로그 다운로드..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "로그 파일"
+  },
+  "aboutDialogue": {
+    "title": "LanSchool Air 정보",
+    "version": "버전 정보",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "개인 정보 보호 및 사용 약관",
+    "license": "타사 라이선스"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% 이(가) 귀하의 활동 모니터링을 요청하고 있습니다.",
+    "monitoring_button_allow": "허용하다",
+    "monitoring_button_reject": "거부하다",
+    "stop_monitoring": "내 컴퓨터 모니터링 중지",
+    "you_are_being_monitored": "LanSchool Air에서 컴퓨터를 모니터링하고 있습니다.",
+    "confirm_stop_monitoring": "이 수업에서 자신을 제거합니다. 다시 참여하려면 LanSchool Air 아이콘을 마우스 오른쪽 버튼으로 클릭하고 \"모니터링 허용\"을 선택해야 합니다.",
+    "monitoring_button_ok": "좋아요",
+    "monitoring_button_cancel": "취소"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "다음으로 가려진 화면: {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "강사가 화면을 공유하려고 합니다.",
+    "button_share": "공유하다",
+    "button_cancel": "취소",
+    "button_stop_sharing": "공유 중지",
+    "screen_sharing_text": "LanSchool Air가 화면을 공유하고 있습니다."
+  }
+}

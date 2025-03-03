@@ -1,0 +1,75 @@
+ 
+  html, body {
+    overflow-y: visible !important;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 368px;
+    max-height: 56px;
+  }
+
+  .font-wrapper {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  #logo-header {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  #status-text {
+    color: #f8f8f8;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #stop-link-div {
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-app-region: no-drag;
+  }
+  
+  .buttonDiv {
+    text-align: center;
+    -webkit-app-region: no-drag;
+  }
+  
+  .buttonDiv ul {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 2px;
+  }
+
+  .buttonDiv li {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+  }
+  
+  button.myDialogButton.mdc-button.mdc-button--raised {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  button.myDialogButton.mdc-button.mdc-button--raised:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  button.myDialogButton.mdc-button.mdc-button__label {
+    background-color: white;
+  }
+
+  a:link, a:visited {
+    color: #f8f8f8;
+  }

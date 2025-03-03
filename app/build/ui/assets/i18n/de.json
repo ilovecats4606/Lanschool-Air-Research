@@ -1,0 +1,166 @@
+﻿{
+  "NOT_IN_CLASS": {
+    "str": "Du bist nicht in einer Klasse.",
+    "desc": "User is not joined to a class."
+  },
+  "NOT_IN_CLASS_NOTE": {
+    "str": "Verwenden Sie diesen Computer mit Bedacht!",
+    "desc": "NOTE when User is not joined to a class."
+  },
+  "CHAT_UNAVAILABLE": {
+    "str": "Der Chat wurde vom Lehrer deaktiviert.",
+    "desc": "The teacher has disabled the ability for the student to use chat."
+  },
+  "HELLO": {
+    "str": "Hallo!",
+    "desc": "Greeting to the student."
+  },
+  "CHAT_WITH_TEACHER": {
+    "str": "Chatten Sie hier mit Ihrem Lehrer.",
+    "desc": "This tool allows the user to chat with their teacher."
+  },
+  "ENTERED_CLASS": {
+    "str": "beigetreten um {{ timeStamp }}",
+    "desc": "Notify the user they have entered the class at a particular time."
+  },
+  "ENTERED_CLASS_INTRO": {
+    "str": "Du bist in einer Klasse. Ihr Kursleiter kann Ihre Arbeit sehen.",
+    "desc": "Notify the user they are in a class and the instructor can see their work."
+  },
+  "CHAT_HISTORY_ON": {
+    "str": "Der Chatverlauf ist aktiviert.",
+    "desc": "Notify the user that the chat history setting is enabled."
+  },
+  "LEFT_CLASS": {
+    "str": "<strong>{{ className }}</strong> verlassen um {{ timeStamp }}",
+    "desc": "Notify the user they have left the class at a particular time."
+  },
+  "RAISED_HAND": {
+    "str": "Sie haben Ihre Hand gehoben",
+    "desc": "Notify the user they have raised their hand in the chat window."
+  },
+  "LOWERED_HAND": {
+    "str": "Sie haben Ihre Hand gesenkt",
+    "desc": "Notify the user they have lowered their hand in the chat window."
+  },
+  "TYPE_MESSAGE_HERE": {
+    "str": "Hier Nachricht eingeben ...",
+    "desc": "Placeholder text where the user types a chat message."
+  },
+  "ACTIVE_SPEAKER": {
+    "str": "Es spricht gerade: {{ activeTalker }}",
+    "desc": "Shows who is currently speaking in the conference."
+  },
+  "MULTPLE_SPEAKERS": {
+    "str": "(Mehrere)",
+    "desc": "More than one speaker is currently speaking in the conference."
+  },
+  "TEACHER_SPEAKER": {
+    "str": "Lehrer",
+    "desc": "Shown when the teacher is the current speaker in the conference."
+  },
+  "TEACHER_CHAT": {
+    "str": "Lehrer",
+    "desc": "If name of teacher is not present when they send a chat message, this is the string identifying the sender."
+  },
+  "YOU_SPEAKER": {
+    "str": "Sie",
+    "desc": "Shown when the user is the current speaker in the conference."
+  },
+  "UNKNOWN_STUDENT": {
+    "str": "Unbekannter Schüler",
+    "desc": "Shown when the name of the student in the conference is unknown."
+  },
+  "CONFERENCE_ONGOING": {
+    "str": "Konferenz läuft",
+    "desc": "Shown when there is a conference in currenly session."
+  },
+  "PARTICIPANT_AVAILABLE": {
+    "str": "Verfügbar",
+    "desc": "A conference participant is available to speak."
+  },
+  "PARTICIPANT_BROADCASTING": {
+    "str": "Auf Sendung",
+    "desc": "A conference participant is currently broadcasting."
+  },
+  "AUDIO_SETTINGS": {
+    "str": "Audioeinstellungen",
+    "desc": "Title for dialog box to make the audio device selection."
+  },
+  "AUDIO_SETTINGS_DESCRIPTION": {
+    "str": "Audioeinheiten auswählen",
+    "desc": "On the settings dialog box, asks the user to choose their audio devices from the given choices."
+  },
+  "TEST_SPEAKERS": {
+    "str": "LAUTSPRECHER TESTEN",
+    "desc": "Button to allow the user to test their speakers with current audio settings."
+  },
+  "AUDIO_LEVELS": {
+    "str": "Audiopegel",
+    "desc": "Label for Audio Levels"
+  },
+  "MICROPHONE_DEVICE": {
+    "str": "Mikrofon",
+    "desc": "Label for the microphone device selection."
+  },
+  "SPEAKERS_DEVICE": {
+    "str": "Lautsprecher",
+    "desc": "Label for the speakers device selection."
+  },
+  "NETWORK_ERROR_DETECTED": {
+    "str": "Netzwerkfehler festgestellt",
+    "desc": "Notify the user a network error has occurred."
+  },
+  "CHECK_NETWORK": {
+    "str": "Überprüfen Sie Ihre Internetverbindung und stellen Sie sicher, dass Sie sich im selben Internetnetzwerk wie die Einheit des Lehrers befinden, und versuchen Sie es erneut.",
+    "desc": "Ask the user to check their network settings."
+  },
+  "RETRY_CONNECTION": {
+    "str": "Wiederholen",
+    "desc": "Ask the user to retry their network connection."
+  },
+  "CONNECTING": {
+    "str": "Verbindung wird hergestellt...",
+    "desc": "Tell the user the network is currently trying to connect."
+  },
+  "LSA_CONNECTIVITY_STATUS": {
+    "str": "LanSchool Air-Status",
+    "desc": "Title for the dialog box displaying the current state of connectivity."
+  },
+  "CONNECTED": {
+    "str": "Verbindung aktiv",
+    "desc": "Tell the user the network is currently connected."
+  },
+  "NOT_CONNECTED": {
+    "str": "Nicht verbunden",
+    "desc": "Tell the user the network is currently not connected."
+  },
+  "LEARN_MORE": {
+    "str": "Mehr erfahren",
+    "desc": "Clickable link to a webpage for additional information"
+  },
+  "DOWNLOAD_LOGS": {
+    "str": "Protokolle herunterladen",
+    "desc": "Button label for the user to download debug logs to the local filesystem."
+  },
+  "LOG_SAVE_SUCCESS": {
+    "str": "Protokoll erfolgreich gespeichert",
+    "desc": "Tell the user the log saved successfully."
+  },
+  "LOG_SAVE_ERROR": {
+    "str": "Speichern des Protokolls fehlgeschlagen: {{ errorString }}",
+    "desc": "Tell the user the log save failed and why."
+  },
+  "DEAD_ORG_TITLE": {
+    "str": "Der LanSchool Air-Studentenagent ist auf Ihrem Gerät installiert und nicht mehr funktionsfähig.",
+    "desc": "Title of dialog box explaining that the customer org is no longer recognized."
+  },
+  "DEAD_ORG_ACTION": {
+    "str": "Bitte wenden Sie sich zur Deinstallation an Ihren Administrator.",
+    "desc": "Direction to the user to contact their administrator."
+  },
+  "DISMISS_BUTTON_LABEL": {
+    "str": "Zurückweisen",
+    "desc": "Label for the dismiss button on a dialog."
+  }
+}

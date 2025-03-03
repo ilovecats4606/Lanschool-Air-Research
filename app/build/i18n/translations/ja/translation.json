@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "元のサイズに戻す",
+    "close": "閉じる"
+  },
+  "tray": {
+    "about": "LanSchool Air について",
+    "messages": "メッセージ...",
+    "status": "ステータス...",
+    "download": "ログのダウンロード..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "ログ・ファイル"
+  },
+  "aboutDialogue": {
+    "title": "LanSchool Air について",
+    "version": "バージョン情報",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "プライバシーと利用規約",
+    "license": "サード・パーティーのライセンス"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% はあなたのアクティビティを監視するように要求しています",
+    "monitoring_button_allow": "許可する",
+    "monitoring_button_reject": "拒絶",
+    "stop_monitoring": "コンピューターの監視を停止する",
+    "you_are_being_monitored": "お使いのコンピュータはLanSchoolAirによって監視されています。",
+    "confirm_stop_monitoring": "あなたはこのクラスから自分自身を削除しています。 再参加するには、LanSchool Airアイコンを右クリックして、[監視を許可]を選択する必要があります。",
+    "monitoring_button_ok": "わかった",
+    "monitoring_button_cancel": "キャンセル"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "画面が空白になっています： {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "講師が画面の共有を希望しています",
+    "button_share": "共有",
+    "button_cancel": "キャンセル",
+    "button_stop_sharing": "共有を停止する",
+    "screen_sharing_text": "LanSchool Air が画面を共有しています"
+  }
+}

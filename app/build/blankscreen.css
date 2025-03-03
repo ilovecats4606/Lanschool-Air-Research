@@ -1,0 +1,83 @@
+body {
+	margin: 0 0 0 0;
+	/*background: -webkit-linear-gradient(navy 20%, black);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.outer_bounding {
+	display: table;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	word-break: break-word;
+}
+
+.middle_bounding
+{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.bs_message {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	text-align: center;
+	color: white;
+	font-size: 64pt;
+	display: block;
+	-webkit-box-orient: vertical;
+}
+
+.bottom_bounding
+{
+	display: table-row;
+	vertical-align: bottom;
+}
+
+.clsid_message {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	text-align: left;
+	font-size: 16pt;
+	color: white;
+	padding: 20px;
+	font-family: "Arial";
+	text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000
+}
+
+#message { 
+	display: inline-block; 
+	vertical-align: middle; 
+	line-height: normal; 
+	font-size: 48pt;
+	color: white;
+	padding: 60px;
+	text-align: center;
+	font-family: "Arial";
+	text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+

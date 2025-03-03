@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "Réduire",
+    "maximize": "Agrandir",
+    "restore": "Niveau inférieur",
+    "close": "Fermer"
+  },
+  "tray": {
+    "about": "À propos de LanSchool Air",
+    "messages": "Messages...",
+    "status": "État...",
+    "download": "Télécharger les Journaux..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "Fichiers journaux"
+  },
+  "aboutDialogue": {
+    "title": "À propos de LanSchool Air",
+    "version": "Information sur la version",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "Confidentialité et conditions générales",
+    "license": "Informations sur la version"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% demande à surveiller votre activité",
+    "monitoring_button_allow": "Permettre",
+    "monitoring_button_reject": "Rejeter",
+    "stop_monitoring": "Arrêter de surveiller mon ordinateur",
+    "you_are_being_monitored": "Votre ordinateur est surveillé par LanSchool Air.",
+    "confirm_stop_monitoring": "Vous vous retirez de cette classe. Pour rejoindre, vous devez cliquer avec le bouton droit sur l'icône LanSchool Air et sélectionner \"Autoriser la surveillance\".",
+    "monitoring_button_ok": "D'accord",
+    "monitoring_button_cancel": "Annuler"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "Écran masqué par : {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "Votre professeur souhaite partager votre écran",
+    "button_share": "Partager",
+    "button_cancel": "Annuler",
+    "button_stop_sharing": "Arrêter de partager",
+    "screen_sharing_text": "LanSchool Air partage votre écran"
+  }
+}

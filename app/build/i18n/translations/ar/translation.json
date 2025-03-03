@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "تصغير",
+    "maximize": "تكبير",
+    "restore": "استعادة",
+    "close": "إغلا"
+  },
+  "tray": {
+    "about": "حول LanSchool Air",
+    "messages": "الرسائل...",
+    "status": "الحالة...",
+    "download": "تنزيل السجلات..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "ملفات الدخول"
+  },
+  "aboutDialogue": {
+    "title": "حول LanSchool Air",
+    "version": "معلومات الإصدار",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "الخصوصية وشروط الاستخدام",
+    "license": "تراخيص الطرف الثالث"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% is requesting to monitor your activity",
+    "monitoring_button_allow": "السماح",
+    "monitoring_button_reject": "رفض",
+    "stop_monitoring": "توقف عن مراقبة جهاز الكمبيوتر الخاص بي",
+    "you_are_being_monitored": "تتم مراقبة جهاز الكمبيوتر الخاص بك بواسطة برنامج LanSchool Air.",
+    "confirm_stop_monitoring": "You are removing yourself from this class. To rejoin you must right-click on the LanSchool Air icon and select \"Allow Monitoring\".",
+    "monitoring_button_ok": "موافق",
+    "monitoring_button_cancel": "إلغاء"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "تم حجب الشاشة بواسطة : {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "سيود مدرسك مشاركة شاشتك",
+    "button_share": "يشارك",
+    "button_cancel": "يلغي",
+    "button_stop_sharing": "التوقف عن المشاركة",
+    "screen_sharing_text": "يشارك LanSchool Air شاشتك"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "Perkecil",
+    "maximize": "Perbesar",
+    "restore": "Kembalikan",
+    "close": "Tutup"
+  },
+  "tray": {
+    "about": "Tentang LanSchool Air",
+    "messages": "Pesan...",
+    "status": "Status...",
+    "download": "Unduh Log..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "File Log"
+  },
+  "aboutDialogue": {
+    "title": "Tentang LanSchool Air",
+    "version": "Informasi Versi",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "Privasi dan Ketentuan Penggunaan",
+    "license": "Lisensi Pihak Ketiga"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% meminta untuk memantau aktivitas Anda",
+    "monitoring_button_allow": "Mengizinkan",
+    "monitoring_button_reject": "Menolak",
+    "stop_monitoring": "Berhenti memantau komputer saya",
+    "you_are_being_monitored": "Komputer Anda sedang dipantau oleh LanSchool Air.",
+    "confirm_stop_monitoring": "Anda mengeluarkan diri Anda dari kelas ini. Untuk bergabung kembali, Anda harus mengklik kanan ikon LanSchool Air dan memilih \"Izinkan Pemantauan\".",
+    "monitoring_button_ok": "Oke",
+    "monitoring_button_cancel": "Membatalkan"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "Layar dikosongkan oleh: {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "Instruktur Anda ingin membagikan layar Anda",
+    "button_share": "Membagikan",
+    "button_cancel": "Membatalkan",
+    "button_stop_sharing": "Berhenti berbagi",
+    "screen_sharing_text": "LanSchool Air membagikan layar Anda"
+  }
+}

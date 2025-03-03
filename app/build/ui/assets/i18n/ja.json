@@ -1,0 +1,166 @@
+﻿{
+  "NOT_IN_CLASS": {
+    "str": "あなたはクラスにいません。",
+    "desc": "User is not joined to a class."
+  },
+  "NOT_IN_CLASS_NOTE": {
+    "str": "このコンピューターを賢く使ってください！",
+    "desc": "NOTE when User is not joined to a class."
+  },
+  "CHAT_UNAVAILABLE": {
+    "str": "教師によってチャットが無効にされました。",
+    "desc": "The teacher has disabled the ability for the student to use chat."
+  },
+  "HELLO": {
+    "str": "こんにちは。",
+    "desc": "Greeting to the student."
+  },
+  "CHAT_WITH_TEACHER": {
+    "str": "こちらで教師とチャットできます。",
+    "desc": "This tool allows the user to chat with their teacher."
+  },
+  "ENTERED_CLASS": {
+    "str": "{{ timeStamp }}にクラスに参加",
+    "desc": "Notify the user they have entered the class at a particular time."
+  },
+  "ENTERED_CLASS_INTRO": {
+    "str": "あなたはクラスにいます。 あなたのインストラクターはあなたの仕事を見ることができます。",
+    "desc": "Notify the user they are in a class and the instructor can see their work."
+  },
+  "CHAT_HISTORY_ENABLED": {
+    "str": "チャット履歴がオンになっています.",
+    "desc": "Notify the user that the chat history setting is enabled."
+  },
+  "LEFT_CLASS": {
+    "str": "{{ timeStamp }} に <strong>{{ className }}</strong> から退室しました",
+    "desc": "Notify the user they have left the class at a particular time."
+  },
+  "RAISED_HAND": {
+    "str": "手を上げました",
+    "desc": "Notify the user they have raised their hand in the chat window."
+  },
+  "LOWERED_HAND": {
+    "str": "手を下げました",
+    "desc": "Notify the user they have lowered their hand in the chat window."
+  },
+  "TYPE_MESSAGE_HERE": {
+    "str": "メッセージをこちらに入力してください...",
+    "desc": "Placeholder text where the user types a chat message."
+  },
+  "ACTIVE_SPEAKER": {
+    "str": "話し中: {{ activeTalker }}",
+    "desc": "Shows who is currently speaking in the conference."
+  },
+  "MULTPLE_SPEAKERS": {
+    "str": "(複数)",
+    "desc": "More than one speaker is currently speaking in the conference."
+  },
+  "TEACHER_SPEAKER": {
+    "str": "先生",
+    "desc": "Shown when the teacher is the current speaker in the conference."
+  },
+  "TEACHER_CHAT": {
+    "str": "先生",
+    "desc": "If name of teacher is not present when they send a chat message, this is the string identifying the sender."
+  },
+  "YOU_SPEAKER": {
+    "str": "あなた",
+    "desc": "Shown when the user is the current speaker in the conference."
+  },
+  "UNKNOWN_STUDENT": {
+    "str": "不明な生徒",
+    "desc": "Shown when the name of the student in the conference is unknown."
+  },
+  "CONFERENCE_ONGOING": {
+    "str": "進行中の会議",
+    "desc": "Shown when there is a conference in currenly session."
+  },
+  "PARTICIPANT_AVAILABLE": {
+    "str": "使用可能",
+    "desc": "A conference participant is available to speak."
+  },
+  "PARTICIPANT_BROADCASTING": {
+    "str": "放送中",
+    "desc": "A conference participant is currently broadcasting."
+  },
+  "AUDIO_SETTINGS": {
+    "str": "オーディオの設定",
+    "desc": "Title for dialog box to make the audio device selection."
+  },
+  "AUDIO_SETTINGS_DESCRIPTION": {
+    "str": "オーディオ・デバイスを選択します",
+    "desc": "On the settings dialog box, asks the user to choose their audio devices from the given choices."
+  },
+  "TEST_SPEAKERS": {
+    "str": "スピーカーのテスト",
+    "desc": "Button to allow the user to test their speakers with current audio settings."
+  },
+  "AUDIO_LEVELS": {
+    "str": "オーディオレベル",
+    "desc": "Label for Audio Levels"
+  },
+  "MICROPHONE_DEVICE": {
+    "str": "マイク",
+    "desc": "Label for the microphone device selection."
+  },
+  "SPEAKERS_DEVICE": {
+    "str": "スピーカー",
+    "desc": "Label for the speakers device selection."
+  },
+  "NETWORK_ERROR_DETECTED": {
+    "str": "ネットワーク・エラーが検出されました",
+    "desc": "Notify the user a network error has occurred."
+  },
+  "CHECK_NETWORK": {
+    "str": "インターネット接続を確認し、教師のデバイスと同じインターネット・ネットワークに接続していることを確認して、再試行してください。",
+    "desc": "Ask the user to check their network settings."
+  },
+  "RETRY_CONNECTION": {
+    "str": "再試行",
+    "desc": "Ask the user to retry their network connection."
+  },
+  "CONNECTING": {
+    "str": "接続...",
+    "desc": "Tell the user the network is currently trying to connect."
+  },
+  "LSA_CONNECTIVITY_STATUS": {
+    "str": "LanSchool Air のステータス",
+    "desc": "Title for the dialog box displaying the current state of connectivity."
+  },
+  "CONNECTED": {
+    "str": "接続されました",
+    "desc": "Tell the user the network is currently connected."
+  },
+  "NOT_CONNECTED": {
+    "str": "接続されていません",
+    "desc": "Tell the user the network is currently not connected."
+  },
+  "LEARN_MORE": {
+    "str": "もっと詳しく知る",
+    "desc": "Clickable link to a webpage for additional information"
+  },
+  "DOWNLOAD_LOGS": {
+    "str": "ログのダウンロード",
+    "desc": "Button label for the user to download debug logs to the local filesystem."
+  },
+  "LOG_SAVE_SUCCESS": {
+    "str": "ログを正常に保存しました",
+    "desc": "Tell the user the log saved successfully."
+  },
+  "LOG_SAVE_ERROR": {
+    "str": "ログの保存に失敗しました: {{ errorString }}",
+    "desc": "Tell the user the log save failed and why."
+  },
+  "DEAD_ORG_TITLE": {
+    "str": "LanSchool Air 学生エージェントはお使いのデバイスにインストールされていますが、機能しなくなりました。",
+    "desc": "Title of dialog box explaining that the customer org is no longer recognized."
+  },
+  "DEAD_ORG_ACTION": {
+    "str": "アンインストールするには管理者に連絡してください。",
+    "desc": "Direction to the user to contact their administrator."
+  },
+  "DISMISS_BUTTON_LABEL": {
+    "str": "解散",
+    "desc": "Label for the dismiss button on a dialog."
+  }
+}

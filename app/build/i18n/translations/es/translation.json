@@ -1,0 +1,44 @@
+{
+  "title_bar": {
+    "minimize": "Minimizar",
+    "maximize": "Maximizar",
+    "restore": "Restaurar hacia abajo",
+    "close": "Cerrar"
+  },
+  "tray": {
+    "about": "Acerca de LanSchool Air",
+    "messages": "Mensajes...",
+    "status": "Estado...",
+    "download": "Registros de Descarga..."
+  },
+  "fileSaveDialog": {
+    "saveAsType": "Archivos de registro"
+  },
+  "aboutDialogue": {
+    "title": "Acerca de LanSchool Air",
+    "version": "Información de la versión",
+    "copyright": "© 2024 Lenovo Software",
+    "privacyPolicy": "Privacidad y condiciones de uso",
+    "license": "Licencias de terceros"
+  },
+  "monitoringWindow": {
+    "unverified_teacher_request": "%TEACHER% está solicitando monitorear su actividad",
+    "monitoring_button_allow": "Permitir",
+    "monitoring_button_reject": "Rechazar",
+    "stop_monitoring": "Dejar de monitorear mi computadora",
+    "you_are_being_monitored": "Su computadora está siendo monitoreada por LanSchool Air.",
+    "confirm_stop_monitoring": "Usted se está eliminando de esta clase. Para volver a unirse, debe hacer clic con el botón derecho en el ícono de LanSchool Air y seleccionar \"Permitir la supervisión\".",
+    "monitoring_button_ok": "OK",
+    "monitoring_button_cancel": "Cancelar"
+  },
+  "blankScreen": {
+    "screenBlankedBy": "Pantalla en blanco por: {className}"
+  },
+  "shareRequestWindow": {
+    "instructor_share_request": "A tu instructor le gustaría compartir tu pantalla.",
+    "button_share": "Compartir",
+    "button_cancel": "Cancelar",
+    "button_stop_sharing": "Deja de compartir",
+    "screen_sharing_text": "LanSchool Air está compartiendo su pantalla"
+  }
+}

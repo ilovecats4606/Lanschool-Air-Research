@@ -1,0 +1,102 @@
+ 
+html, body {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.rectangle {
+    display: inline-block;
+    height: 100%;
+    width: 20px;
+    background-color: #2478CC;
+}
+
+.share-request-prompt {
+    background: #FFFFFF;
+    color: #3A4852;
+}
+
+.active-sharing {
+    background: rgba(65,66,67,0.95);
+    color: #FFFFFF;
+}
+
+.font-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.share-request-prompt-font-wrapper {
+    margin: 25px;
+    width: calc(100% - 75px);
+}
+
+.message {
+    height: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding: 10px;
+}
+  
+  
+.buttonDiv {
+    margin-top: 60px;
+    text-align: right;
+    -webkit-app-region: no-drag;
+}
+
+.inline-button {
+    -webkit-app-region: no-drag;
+}
+
+.mdc-button__label {
+    font-weight: 600;
+    text-transform: none;
+}
+
+.mdc-button {
+    margin-left: 10px;
+}
+
+.button-cancel {
+    border-color: #2478CC !important;
+    color: #2478CC !important;
+}
+
+.button-share {
+    background-color: #2478CC !important;
+    border-color: #2478CC !important;
+    color: #FFFFFF !important;
+}
+
+.button-stop-share {
+    background-color: #E1140A !important;
+    border-color: #E1140A !important;
+    color: #FFFFFF !important;
+}
+
+.material-icons {
+    display: inline-flex;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.share-request-prompt-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.active-sharing-icon {
+    width: 26px;
+    height: 26px;
+}

@@ -1,0 +1,24 @@
+body {
+    background: #333F48;
+}
+
+.centered {
+    color: white; 
+    background: #333F48;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.version_table {
+    color: white; 
+    border: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered:focus {
+    outline: none !important;
+    border:1px solid white;
+    box-shadow: 0 0 10px #719ECE;
+  }

@@ -1,0 +1,166 @@
+﻿{
+  "NOT_IN_CLASS": {
+    "str": "당신은 수업에 없습니다.",
+    "desc": "User is not joined to a class."
+  },
+  "NOT_IN_CLASS_NOTE": {
+    "str": "이 컴퓨터를 현명하게 사용하십시오!",
+    "desc": "NOTE when User is not joined to a class."
+  },
+  "CHAT_UNAVAILABLE": {
+    "str": "선생님이 채팅을 비활성화했습니다.",
+    "desc": "The teacher has disabled the ability for the student to use chat."
+  },
+  "HELLO": {
+    "str": "안녕하세요.",
+    "desc": "Greeting to the student."
+  },
+  "CHAT_WITH_TEACHER": {
+    "str": "여기에서 교사와 채팅하십시오.",
+    "desc": "This tool allows the user to chat with their teacher."
+  },
+  "ENTERED_CLASS": {
+    "str": "{{ timeStamp }}시에 수업 들어감",
+    "desc": "Notify the user they have entered the class at a particular time."
+  },
+  "ENTERED_CLASS_INTRO": {
+    "str": "당신은 수업에 있습니다. 강사는 귀하의 작업을 볼 수 있습니다.",
+    "desc": "Notify the user they are in a class and the instructor can see their work."
+  },
+  "CHAT_HISTORY_ENABLED": {
+    "str": "채팅 기록이 켜져 있습니다.",
+    "desc": "Notify the user that the chat history setting is enabled."
+  },
+  "LEFT_CLASS": {
+    "str": "{{ timeStamp }}에 <strong>{{ className }}</strong> 수업에서 나옴",
+    "desc": "Notify the user they have left the class at a particular time."
+  },
+  "RAISED_HAND": {
+    "str": "손을 들었습니다.",
+    "desc": "Notify the user they have raised their hand in the chat window."
+  },
+  "LOWERED_HAND": {
+    "str": "손을 내렸습니다.",
+    "desc": "Notify the user they have lowered their hand in the chat window."
+  },
+  "TYPE_MESSAGE_HERE": {
+    "str": "여기에 메시지 입력...",
+    "desc": "Placeholder text where the user types a chat message."
+  },
+  "ACTIVE_SPEAKER": {
+    "str": "말하는 사람: {{ activeTalker }}",
+    "desc": "Shows who is currently speaking in the conference."
+  },
+  "MULTPLE_SPEAKERS": {
+    "str": "(여러 명)",
+    "desc": "More than one speaker is currently speaking in the conference."
+  },
+  "TEACHER_SPEAKER": {
+    "str": "선생님",
+    "desc": "Shown when the teacher is the current speaker in the conference."
+  },
+  "TEACHER_CHAT": {
+    "str": "선생님",
+    "desc": "If name of teacher is not present when they send a chat message, this is the string identifying the sender."
+  },
+  "YOU_SPEAKER": {
+    "str": "나",
+    "desc": "Shown when the user is the current speaker in the conference."
+  },
+  "UNKNOWN_STUDENT": {
+    "str": "알 수 없는 학생",
+    "desc": "Shown when the name of the student in the conference is unknown."
+  },
+  "CONFERENCE_ONGOING": {
+    "str": "회의 진행 중",
+    "desc": "Shown when there is a conference in currenly session."
+  },
+  "PARTICIPANT_AVAILABLE": {
+    "str": "가능",
+    "desc": "A conference participant is available to speak."
+  },
+  "PARTICIPANT_BROADCASTING": {
+    "str": "브로드캐스팅",
+    "desc": "A conference participant is currently broadcasting."
+  },
+  "AUDIO_SETTINGS": {
+    "str": "오디오 설정",
+    "desc": "Title for dialog box to make the audio device selection."
+  },
+  "AUDIO_SETTINGS_DESCRIPTION": {
+    "str": "오디오 장치 선택",
+    "desc": "On the settings dialog box, asks the user to choose their audio devices from the given choices."
+  },
+  "TEST_SPEAKERS": {
+    "str": "스피커 테스트",
+    "desc": "Button to allow the user to test their speakers with current audio settings."
+  },
+  "AUDIO_LEVELS": {
+    "str": "오디오 레벨",
+    "desc": "Label for Audio Levels"
+  },
+  "MICROPHONE_DEVICE": {
+    "str": "마이크",
+    "desc": "Label for the microphone device selection."
+  },
+  "SPEAKERS_DEVICE": {
+    "str": "스피커",
+    "desc": "Label for the speakers device selection."
+  },
+  "NETWORK_ERROR_DETECTED": {
+    "str": "네트워크 오류 감지됨",
+    "desc": "Notify the user a network error has occurred."
+  },
+  "CHECK_NETWORK": {
+    "str": "인터넷 연결을 확인합니다. 교사의 장치와 동일한 인터넷 네트워크에 연결되어 있는지 확인한 후 다시 시도하십시오.",
+    "desc": "Ask the user to check their network settings."
+  },
+  "RETRY_CONNECTION": {
+    "str": "다시 시도",
+    "desc": "Ask the user to retry their network connection."
+  },
+  "CONNECTING": {
+    "str": "연결 중...",
+    "desc": "Tell the user the network is currently trying to connect."
+  },
+  "LSA_CONNECTIVITY_STATUS": {
+    "str": "LanSchool Air 상태",
+    "desc": "Title for the dialog box displaying the current state of connectivity."
+  },
+  "CONNECTED": {
+    "str": "연결됨",
+    "desc": "Tell the user the network is currently connected."
+  },
+  "NOT_CONNECTED": {
+    "str": "연결되지 않음",
+    "desc": "Tell the user the network is currently not connected."
+  },
+  "LEARN_MORE": {
+    "str": "더 알아보기",
+    "desc": "Clickable link to a webpage for additional information"
+  },
+  "DOWNLOAD_LOGS": {
+    "str": "로그 다운로드",
+    "desc": "Button label for the user to download debug logs to the local filesystem."
+  },
+  "LOG_SAVE_SUCCESS": {
+    "str": "로그가 저장됨",
+    "desc": "Tell the user the log saved successfully."
+  },
+  "LOG_SAVE_ERROR": {
+    "str": "로그를 저장하지 못함: {{ errorString }}",
+    "desc": "Tell the user the log save failed and why."
+  },
+  "DEAD_ORG_TITLE": {
+    "str": "LanSchool Air 학생 에이전트가 장치에 설치되어 더 이상 작동하지 않습니다.",
+    "desc": "Title of dialog box explaining that the customer org is no longer recognized."
+  },
+  "DEAD_ORG_ACTION": {
+    "str": "제거하려면 관리자에게 문의하십시오.",
+    "desc": "Direction to the user to contact their administrator."
+  },
+  "DISMISS_BUTTON_LABEL": {
+    "str": "해고하다",
+    "desc": "Label for the dismiss button on a dialog."
+  }
+}

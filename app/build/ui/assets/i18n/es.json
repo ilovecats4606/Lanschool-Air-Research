@@ -1,0 +1,166 @@
+﻿{
+  "NOT_IN_CLASS": {
+    "str": "No estás en una clase.",
+    "desc": "User is not joined to a class."
+  },
+  "NOT_IN_CLASS_NOTE": {
+    "str": "¡Use esta computadora sabiamente!",
+    "desc": "NOTE when User is not joined to a class."
+  },
+  "CHAT_UNAVAILABLE": {
+    "str": "El chat ha sido deshabilitado por el profesor.",
+    "desc": "The teacher has disabled the ability for the student to use chat."
+  },
+  "HELLO": {
+    "str": "¡Hola!",
+    "desc": "Greeting to the student."
+  },
+  "CHAT_WITH_TEACHER": {
+    "str": "Hable aquí con su profesor.",
+    "desc": "This tool allows the user to chat with their teacher."
+  },
+  "ENTERED_CLASS": {
+    "str": "Ingresó a clase a las {{ timeStamp }}",
+    "desc": "Notify the user they have entered the class at a particular time."
+  },
+  "ENTERED_CLASS_INTRO": {
+    "str": "Estás en una clase. Su instructor puede ver su trabajo.",
+    "desc": "Notify the user they are in a class and the instructor can see their work."
+  },
+  "CHAT_HISTORY_ENABLED": {
+    "str": "El historial de chat está activado.",
+    "desc": "Notify the user that the chat history setting is enabled."
+  },
+  "LEFT_CLASS": {
+    "str": "Salió de <strong>{{ className }}</strong> a las {{ timeStamp }}",
+    "desc": "Notify the user they have left the class at a particular time."
+  },
+  "RAISED_HAND": {
+    "str": "Levantó su mano",
+    "desc": "Notify the user they have raised their hand in the chat window."
+  },
+  "LOWERED_HAND": {
+    "str": "Bajó su mano",
+    "desc": "Notify the user they have lowered their hand in the chat window."
+  },
+  "TYPE_MESSAGE_HERE": {
+    "str": "Escriba su mensaje aquí...",
+    "desc": "Placeholder text where the user types a chat message."
+  },
+  "ACTIVE_SPEAKER": {
+    "str": "Hablando: {{ activeTalker }}",
+    "desc": "Shows who is currently speaking in the conference."
+  },
+  "MULTPLE_SPEAKERS": {
+    "str": "(Múltiple)",
+    "desc": "More than one speaker is currently speaking in the conference."
+  },
+  "TEACHER_SPEAKER": {
+    "str": "Maestro",
+    "desc": "Shown when the teacher is the current speaker in the conference."
+  },
+  "TEACHER_CHAT": {
+    "str": "Maestro",
+    "desc": "If name of teacher is not present when they send a chat message, this is the string identifying the sender."
+  },
+  "YOU_SPEAKER": {
+    "str": "Usted",
+    "desc": "Shown when the user is the current speaker in the conference."
+  },
+  "UNKNOWN_STUDENT": {
+    "str": "Alumno desconocido",
+    "desc": "Shown when the name of the student in the conference is unknown."
+  },
+  "CONFERENCE_ONGOING": {
+    "str": "Conferencia continua",
+    "desc": "Shown when there is a conference in currenly session."
+  },
+  "PARTICIPANT_AVAILABLE": {
+    "str": "Disponible",
+    "desc": "A conference participant is available to speak."
+  },
+  "PARTICIPANT_BROADCASTING": {
+    "str": "Emitiendo",
+    "desc": "A conference participant is currently broadcasting."
+  },
+  "AUDIO_SETTINGS": {
+    "str": "Configuración de audio",
+    "desc": "Title for dialog box to make the audio device selection."
+  },
+  "AUDIO_SETTINGS_DESCRIPTION": {
+    "str": "Seleccione sus dispositivos de audio",
+    "desc": "On the settings dialog box, asks the user to choose their audio devices from the given choices."
+  },
+  "TEST_SPEAKERS": {
+    "str": "PROBAR ALTAVOCES",
+    "desc": "Button to allow the user to test their speakers with current audio settings."
+  },
+  "AUDIO_LEVELS": {
+    "str": "Niveles de Audio",
+    "desc": "Label for Audio Levels"
+  },
+  "MICROPHONE_DEVICE": {
+    "str": "Micrófono",
+    "desc": "Label for the microphone device selection."
+  },
+  "SPEAKERS_DEVICE": {
+    "str": "Altavoces",
+    "desc": "Label for the speakers device selection."
+  },
+  "NETWORK_ERROR_DETECTED": {
+    "str": "Se detectó un error de red",
+    "desc": "Notify the user a network error has occurred."
+  },
+  "CHECK_NETWORK": {
+    "str": "Compruebe la conexión a Internet y asegúrese de que está en la misma red de Internet que el dispositivo del profesor e inténtelo de nuevo.",
+    "desc": "Ask the user to check their network settings."
+  },
+  "RETRY_CONNECTION": {
+    "str": "Reintentar",
+    "desc": "Ask the user to retry their network connection."
+  },
+  "CONNECTING": {
+    "str": "Conectando...",
+    "desc": "Tell the user the network is currently trying to connect."
+  },
+  "LSA_CONNECTIVITY_STATUS": {
+    "str": "Estado de LanSchool Air",
+    "desc": "Title for the dialog box displaying the current state of connectivity."
+  },
+  "CONNECTED": {
+    "str": "Conectado",
+    "desc": "Tell the user the network is currently connected."
+  },
+  "NOT_CONNECTED": {
+    "str": "No conectado",
+    "desc": "Tell the user the network is currently not connected."
+  },
+  "LEARN_MORE": {
+    "str": "Aprende más",
+    "desc": "Clickable link to a webpage for additional information"
+  },
+  "DOWNLOAD_LOGS": {
+    "str": "Registros de descarga",
+    "desc": "Button label for the user to download debug logs to the local filesystem."
+  },
+  "LOG_SAVE_SUCCESS": {
+    "str": "Registro guardado satisfactoriamente",
+    "desc": "Tell the user the log saved successfully."
+  },
+  "LOG_SAVE_ERROR": {
+    "str": "Error al guardar el registro: {{ errorString }}",
+    "desc": "Tell the user the log save failed and why."
+  },
+  "DEAD_ORG_TITLE": {
+    "str": "El agente estudiantil de LanSchool Air está instalado en su dispositivo y ya no funciona.",
+    "desc": "Title of dialog box explaining that the customer org is no longer recognized."
+  },
+  "DEAD_ORG_ACTION": {
+    "str": "Póngase en contacto con su administrador para desinstalar.",
+    "desc": "Direction to the user to contact their administrator."
+  },
+  "DISMISS_BUTTON_LABEL": {
+    "str": "Despedir",
+    "desc": "Label for the dismiss button on a dialog."
+  }
+}
