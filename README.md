@@ -61,9 +61,8 @@ STUDENT_CONFERENCE_TYPE_VIDEO: 4 (Video conference for student).
 deadbeef-4811-30f6-42e7-7d8421b2bece
 ```
 
-
-```js
 enums
+```js
 - ConnectionStateEnum:
   - `Connected`: 1
   - `Disconnected`: 2
@@ -98,8 +97,9 @@ enums
 - RouteEnum:
   - `Chat`: 'build/index.html#/chat'
   - `Speaker`: 'build/index.html#/speaker-audio'
-
+```
 consts
+```
 - WebHelperExtensionIds:
   - `baleiojnjpgeojohhhfbichcodgljmnj` (LanSchool Air web helper - production)
   - `ljejjhdjfagbhnehmnhihhkcbanajcoa` (LanSchool Air web helper - beta)
