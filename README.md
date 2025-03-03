@@ -46,20 +46,20 @@ There seems to be generation of a private key in the code (keypair gen on config
 
 Below is datamining from some js files.
 
-
+```js
 TEACHER_CONFERENCE_TYPE_NONE: 0 (No conference).
 TEACHER_CONFERENCE_TYPE_VIDEO: 1 (Video conference for teacher).
 TEACHER_CONFERENCE_TYPE_AUDIO: 2 (Audio conference for teacher).
 STUDENT_CONFERENCE_TYPE_VIDEO: 4 (Video conference for student).
+```
 
 
-
-
+```js
 deadbeef-4811-30f6-42e7-7d8421b2bece
+```
 
 
-
-
+```js
 enums
 - **ConnectionStateEnum**:
   - `Connected`: 1
@@ -123,12 +123,11 @@ consts
 - **SyncStorageThrottleBackOffAmount**: `5000` ms (Throttle back-off amount for sync storage)
 
 - **SyncStorageThrottleMax**: `120000` ms (Maximum throttle duration for sync storage)
+```
 
 
-
-The extensions are intresting. Production - searching the extension ID online shows up with a lot of stuff as expected. Searching the middle 3 come up with nothing - internal betas or a/b testing for admins/some schools???
-The last one comes up with a few, but not a lot.
-
+The extensions are intresting. Production (`baleiojnjpgeojohhhfbichcodgljmnj`) - searching the extension ID online shows up with a lot of stuff as expected. Searching the middle 3 (beta - beta3) come up with nothing - internal betas or a/b testing for admins/some schools???
+The last one (`keknjhjnninjadlkapachhhjfmfnofcb`) comes up with a few, but not a lot.
 
 
 What suprised us was, even before decrypting, we knew it was electron. So this is eating all of ram hehehe
