@@ -1,2 +1,11 @@
 # Lanschool-Air-Research
-Lanschool Air Research
+The logs are encrypted with this key:
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn9vekNvUv2HsJHkqElhI
+wER2+C+WG8XFyqFt+wZ7w5522nK0I2I8TKUBSploYuiWOvCyczmFpKI9Rm480p/x
+u2Vt7xJtkF9QznuwEMPx2NBQ6W8hFgsOjEo89EZ2x/KPuEoAP9EIBdTRfkYMASLi
+OpTIHQJVe5azMbZheA+6DTUlYVBhy3uSuQ5jhe6EfVgrgBN1Hn3GGrrd3TGtQm5A
+UNU4mLBqdZ8brTvP8Oyd0meB2rxCzUhjrORclgjU8im/uDBzp0uBOhG8U6XbcNWc
+6YqQ+319WyD3FOsfAt/X9TIDEFYhoUzHZDuOh47JUIKiOKHJ+nco6wla3/nEd7Qr
+FQIDAQAB
+-----END PUBLIC KEY-----
