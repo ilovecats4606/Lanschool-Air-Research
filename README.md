@@ -24,7 +24,7 @@ crypto mine hehehehe
 
 
 Alright serious shit now.
-The logs are encrypted with this key:
+The logs are encrypted with this public key:
 
 
 ```
@@ -42,6 +42,9 @@ FQIDAQAB
 ```
 
 There seems to be generation of a private key in the code (keypair gen on config). Not sure, will look into it tomorrow.
+However, the LanSchool documentation states you can email to them and they will decrypt the logs for you. Don't really know whats happening.
+
+That means that they have the private key.
 
 
 Below is datamining from some js files.
