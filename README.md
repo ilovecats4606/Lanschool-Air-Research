@@ -3,12 +3,23 @@
 
 
 Note: this repo isn't meant to be hacking/bypassing LanSchool Air (that can be done easily). We are just decompiling LanSchool Air and looking into the internal code which is fun.
+Suprisingly, the code isin't ofuscated - there's literally comments in there.
+![image](https://github.com/user-attachments/assets/0cdc2cff-009d-4acb-af3a-dccc4e28cea2)
+It's all clean - easy to read, no bullshit or anything like that which is nice :)
+
+
+Gotta love `TODO` comments in production ready code
+![image](https://github.com/user-attachments/assets/6563a3d0-3dd6-4d87-943a-300285c81955)
+
+
 
 ![image](https://github.com/user-attachments/assets/60a06a13-e0a8-428f-a453-7f7d8c789a71)
 crypto mine hehehehe
 
 
 
+
+Alright serious shit now.
 The logs are encrypted with this key:
 
 
@@ -24,6 +35,11 @@ UNU4mLBqdZ8brTvP8Oyd0meB2rxCzUhjrORclgjU8im/uDBzp0uBOhG8U6XbcNWc
 FQIDAQAB
 
 -----END PUBLIC KEY-----
+
+There seems to be generation of a private key in the code (keypair gen on config). Not sure, will look into it tomorrow.
+
+
+Below is datamining from some js files.
 
 
 TEACHER_CONFERENCE_TYPE_NONE: 0 (No conference).
@@ -102,3 +118,15 @@ consts
 - **SyncStorageThrottleBackOffAmount**: `5000` ms (Throttle back-off amount for sync storage)
 
 - **SyncStorageThrottleMax**: `120000` ms (Maximum throttle duration for sync storage)
+
+
+
+The extensions are intresting. Production - searching the extension ID online shows up with a lot of stuff as expected. Searching the middle 3 come up with nothing - internal betas or a/b testing for admins/some schools???
+The last one comes up with a few, but not a lot.
+
+
+
+What suprised us was, even before decrypting, we knew it was electron. So this is eating all of ram hehehe
+
+
+More stuff but too lazy to type (gonna sleep now)
