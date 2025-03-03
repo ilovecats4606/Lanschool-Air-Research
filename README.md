@@ -10,14 +10,11 @@ Suprisingly, the code isin't ofuscated - there's literally comments in there.
 
 ![image](https://github.com/user-attachments/assets/0cdc2cff-009d-4acb-af3a-dccc4e28cea2)
 
-
 It's all clean - easy to read, no bullshit or anything like that which is nice :)
 
-
-Gotta love `TODO` comments in production ready code
 ![image](https://github.com/user-attachments/assets/6563a3d0-3dd6-4d87-943a-300285c81955)
 
-
+Gotta love `TODO` comments in production ready code
 
 ![image](https://github.com/user-attachments/assets/60a06a13-e0a8-428f-a453-7f7d8c789a71)
 
