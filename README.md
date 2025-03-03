@@ -64,68 +64,68 @@ deadbeef-4811-30f6-42e7-7d8421b2bece
 
 ```js
 enums
-- **ConnectionStateEnum**:
+- ConnectionStateEnum:
   - `Connected`: 1
   - `Disconnected`: 2
   - `Trying`: 3
 
-- **SigningRequirementEnum**:
+- SigningRequirementEnum:
   - `Enforced`: 1
   - `None`: 2
   - `Unknown`: 3
 
-- **LEDColors**:
+- LEDColors:
   - `Green`: 1
   - `Amber`: 2
   - `Red`: 3
 
-- **LEDColorsString**:
+- LEDColorsString:
   - `Green`: 'Green'
   - `Amber`: 'Amber'
   - `Red`: 'Red'
 
-- **StatusPageIcons**:
+- StatusPageIcons:
   - `Good`: 1
   - `Warn`: 2
   - `Error`: 3
   - `Info`: 4
 
-- **ConferenceStateEnum**:
+- ConferenceStateEnum:
   - `Disconnected`: 1
   - `InProcess`: 2
   - `Connected`: 3
 
-- **RouteEnum**:
+- RouteEnum:
   - `Chat`: 'build/index.html#/chat'
   - `Speaker`: 'build/index.html#/speaker-audio'
 
 consts
-- **WebHelperExtensionIds**:
+- WebHelperExtensionIds:
   - `baleiojnjpgeojohhhfbichcodgljmnj` (LanSchool Air web helper - production)
   - `ljejjhdjfagbhnehmnhihhkcbanajcoa` (LanSchool Air web helper - beta)
   - `mmpgfeapmofhobeagaffmjfnfaagjkbk` (LanSchool Air web helper - beta 2)
   - `omkignahognlejgkcbcmcpafacamikmp` (LanSchool Air web helper - beta 3)
   - `keknjhjnninjadlkapachhhjfmfnofcb` (Self-hosted extension)
 
-- **CatchAllOrg**: `'deadbeef-4811-30f6-42e7-7d8421b2bece'` (Catch-all organization ID)
+- CatchAllOrg: `'deadbeef-4811-30f6-42e7-7d8421b2bece'` (Catch-all organization ID)
 
-- **LogBufferSize**: `10000` (Maximum log buffer size)
+- LogBufferSize: `10000` (Maximum log buffer size)
 
-- **MetricReporterMinimumReportingInterval**: `5000` ms (Minimum reporting interval for metrics)
+- MetricReporterMinimumReportingInterval: `5000` ms (Minimum reporting interval for metrics)
 
-- **MetricReporterCheckInterval**: `300000` ms (Metric reporting check interval)
+- MetricReporterCheckInterval: `300000` ms (Metric reporting check interval)
 
-- **MetricReporterConfigEndpoint**: `'0/lsa/common/metrics/config'` (Metric reporting config endpoint)
+- MetricReporterConfigEndpoint: `'0/lsa/common/metrics/config'` (Metric reporting config endpoint)
 
-- **MetricReporterReportingEndpoint**: `'0/lsa/common/metrics/events'` (Metric reporting endpoint)
+- MetricReporterReportingEndpoint: `'0/lsa/common/metrics/events'` (Metric reporting endpoint)
 
-- **SyncStorageMaxErrorsBeforeThrottle**: `5` (Max errors before throttling sync storage)
+- SyncStorageMaxErrorsBeforeThrottle: `5` (Max errors before throttling sync storage)
 
-- **SyncStorageDefaultInterval**: `1000` ms (Default sync storage interval)
+- SyncStorageDefaultInterval: `1000` ms (Default sync storage interval)
 
-- **SyncStorageThrottleBackOffAmount**: `5000` ms (Throttle back-off amount for sync storage)
+- SyncStorageThrottleBackOffAmount: `5000` ms (Throttle back-off amount for sync storage)
 
-- **SyncStorageThrottleMax**: `120000` ms (Maximum throttle duration for sync storage)
+- SyncStorageThrottleMax: `120000` ms (Maximum throttle duration for sync storage)
 ```
 
 
