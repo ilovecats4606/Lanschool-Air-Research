@@ -17,18 +17,24 @@ OpTIHQJVe5azMbZheA+6DTUlYVBhy3uSuQ5jhe6EfVgrgBN1Hn3GGrrd3TGtQm5A
 UNU4mLBqdZ8brTvP8Oyd0meB2rxCzUhjrORclgjU8im/uDBzp0uBOhG8U6XbcNWc
 6YqQ+319WyD3FOsfAt/X9TIDEFYhoUzHZDuOh47JUIKiOKHJ+nco6wla3/nEd7Qr
 FQIDAQAB
+
 -----END PUBLIC KEY-----
 
 
-\nTEACHER_CONFERENCE_TYPE_NONE: 0 (No conference).
+TEACHER_CONFERENCE_TYPE_NONE: 0 (No conference).
 TEACHER_CONFERENCE_TYPE_VIDEO: 1 (Video conference for teacher).
 TEACHER_CONFERENCE_TYPE_AUDIO: 2 (Audio conference for teacher).
 STUDENT_CONFERENCE_TYPE_VIDEO: 4 (Video conference for student).\n
 
+
+
+
 deadbeef-4811-30f6-42e7-7d8421b2bece
 
 
-\nenums
+
+
+enums
 - **ConnectionStateEnum**:
   - `Connected`: 1
   - `Disconnected`: 2
