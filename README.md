@@ -2,6 +2,11 @@
 
 
 
+Note: this repo isn't meant to be hacking/bypassing LanSchool Air (that can be done easily). We are just decompiling LanSchool Air and looking into the internal code which is fun.
+
+![image](https://github.com/user-attachments/assets/60a06a13-e0a8-428f-a453-7f7d8c789a71)
+crypto mine hehehehe
+
 
 
 The logs are encrypted with this key:
