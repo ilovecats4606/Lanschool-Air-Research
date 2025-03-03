@@ -27,7 +27,7 @@ Alright serious shit now.
 The logs are encrypted with this key:
 
 
-
+```
 -----BEGIN PUBLIC KEY-----
 
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn9vekNvUv2HsJHkqElhI
@@ -39,6 +39,7 @@ UNU4mLBqdZ8brTvP8Oyd0meB2rxCzUhjrORclgjU8im/uDBzp0uBOhG8U6XbcNWc
 FQIDAQAB
 
 -----END PUBLIC KEY-----
+```
 
 There seems to be generation of a private key in the code (keypair gen on config). Not sure, will look into it tomorrow.
 
