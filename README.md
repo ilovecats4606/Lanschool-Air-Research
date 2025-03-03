@@ -24,7 +24,7 @@ FQIDAQAB
 TEACHER_CONFERENCE_TYPE_NONE: 0 (No conference).
 TEACHER_CONFERENCE_TYPE_VIDEO: 1 (Video conference for teacher).
 TEACHER_CONFERENCE_TYPE_AUDIO: 2 (Audio conference for teacher).
-STUDENT_CONFERENCE_TYPE_VIDEO: 4 (Video conference for student).\n
+STUDENT_CONFERENCE_TYPE_VIDEO: 4 (Video conference for student).
 
 
 
