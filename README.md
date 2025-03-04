@@ -143,4 +143,10 @@ More stuff but too lazy to type (gonna sleep now)
 {"os_crypt":{"audit_enabled":true,"encrypted_key":"RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAAB4eY8ERg3KQYIcJeDyuk/WEAAAABIAAABDAGgAcgBvAG0AaQB1AG0AAAAQZgAAAAEAACAAAAAxQc9mRY+n5sZCzBPZ/744elq8DqYs/WISU3joiFzokQAAAAAOgAAAAAIAACAAAAC/bQaAQjkbd0xpEwiTgB0Hk3VIIzG44xe0WWJtzX4flzAAAAAsGz9T1Otxr1UY1TxldgAFyjVlpigHUYPBD4iCjBYThkHHHAXDG8focMU5q+3NTkxAAAAAMs/XYx2CVPGhIor2qTtibBrJjYn3FgSQj+jDSbAqU7AeAlmTXn2L5EbRa6D4oBpdsAmQs32SKlFZnhA1F34TgQ=="}}
 ```
 I Signed up for a free trial to LSAir, and I found this in `%APPDATA%\LSAirClient\Local State` (it is a file not a directory, wtf are you doing Lenovo, why are there spaces in the name) That is a base64 encrypted key, it is then DPAPI encrypted (If you want to read, here is the [C# documentation on it](https://learn.microsoft.com/en-us/dotnet/standard/security/how-to-use-data-protection) and here is a [wikipedia page for it](https://en.wikipedia.org/wiki/Data_Protection_API)) I can't seem to decrypt it either using a local machine or a user scoped decryption both for a local administrator and a local user (my main user) it might have been encrypted on Lenovo's side and then copied over here, then sent back to lenovo for decryption, not sure how though, will continue to look through the code
-`
+
+I have managed to decrypt it and it leads to this, all are decrypted:
+```
+Raw Key: b"5\xfa\x87Ak\x01\x11\x85B\xaf_\xcf.\xda\xb0\xc9G\xa1\x9a\xa4'\xf1\x98\xf8\xe7\rd\xd6e~\x00M"
+Hex Key: 35fa87416b01118542af5fcf2edab0c947a19aa427f198f8e70d64d6657e004d
+Base64 Key: NfqHQWsBEYVCr1/PLtqwyUehmqQn8Zj45w1k1mV+AE0=
+```
