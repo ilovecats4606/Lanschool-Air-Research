@@ -47,7 +47,7 @@ However, the LanSchool documentation states you can email to them and they will 
 That means that they have the private key.
 
 
-UPDATE: You can get plain text logs by patching in logExporter.js in app.asar. Here is an example:
+**12/03/24 UPDATE**: You can get plain text logs by patching in logExporter.js in app.asar. Here is an example (made last night):
 
 ```js
 "use strict";
