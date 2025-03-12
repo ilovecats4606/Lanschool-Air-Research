@@ -47,6 +47,99 @@ However, the LanSchool documentation states you can email to them and they will 
 That means that they have the private key.
 
 
+UPDATE: You can get plain text logs by patching in logExporter.js in app.asar. Here is an example:
+
+```js
+"use strict";
+// Copyleft your mum fr lmao
+// Not Confidential and Restricted
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LogExporter = void 0;
+const internal_1 = require("./internal");
+
+class LogExporter {
+    constructor() {
+        internal_1.logger.masterLogger = true;
+        internal_1.logger.logToConsole = false;
+    }
+
+    static getInstance() {
+        if (!LogExporter.instance) {
+            LogExporter.instance = new LogExporter();
+        }
+        return LogExporter.instance;
+    }
+
+    logDebug(msg) {
+        internal_1.logger.logDebug(msg);
+    }
+
+    logInfo(msg) {
+        this.logMessage(msg);
+    }
+
+    logMessage(msg) {
+        internal_1.logger.logMessage(msg);
+    }
+
+    logWarning(msg) {
+        internal_1.logger.logWarning(msg);
+    }
+
+    logError(msg) {
+        internal_1.logger.logError(msg);
+    }
+
+    // Retrieve logs as plain text
+    async retrieveLogBuffer() {
+        return new Promise((resolve) => {
+            const currentLog = new internal_1.LogClientEx(['default-rb', 'SIO']).getLogs();
+            let responseArray = new Array();
+            if (!currentLog ||
+                !currentLog.logEntries ||
+                !Array.isArray(currentLog.logEntries)) {
+                resolve(responseArray);
+                return;
+            }
+
+            for (let i = 0; i < currentLog.logEntries.length; i++) {
+                let entryString = (currentLog.logEntries[i].date || 'NO DATE') +
+                    ',' +
+                    (currentLog.logEntries[i].severity || 'NO SEVERITY') +
+                    ',' +
+                    (currentLog.logEntries[i].entry || 'NO ENTRY') +
+                    '\n';
+                responseArray.push(entryString);
+            }
+            resolve(responseArray);
+        });
+    }
+
+    // plain text
+    async retrieveObfuscatedLogBuffer() {
+        let logArray = await this.retrieveLogBuffer();
+        return logArray.join('');  // plain text
+    }
+
+    // no encrypt
+    async retrieveObfuscatedLogBufferWithHeader(header) {
+        let logArray = await this.retrieveLogBuffer();
+        let sHeader = "";
+        if (header && header.length > 0) {
+            sHeader = header.join('');
+        }
+        return sHeader + logArray.join('');  // Return logs as plain text with the header
+    }
+}
+
+exports.LogExporter = LogExporter;
+```
+
+
+
+
+
+
 Below is datamining from some js files.
 
 ```js
